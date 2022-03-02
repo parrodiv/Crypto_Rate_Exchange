@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Exchange Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="img/bitcoin-exchange-rate.png" class="btc-img" width="350" height="200">
+    <h1>Crypto Exchange Rate Calculator</h1>
+    <p>Choose the crypto and the amount</p>
+
+    <div class="container">
+        <div class="currency">
+            <select id="currency-one">
+                <option value="bitcoin"selected>BTC</option>
+                <option value="tether">USDT</option>
+                <option value="ethereum">ETH</option>
+                <option value="binancecoin">BNB</option>
+                <option value="dogecoin">DOGE</option>
+                <option value="litecoin">LTC</option>
+                <option value="decentraland">MANA</option>
+                <option value="vechain">VET</option>
+            </select>
+            <img src="" class="imgOne">
+            <input type="number" id="amount-one" placeholder="0" value="0">
+        </div>
+
+        <div class="swap-rate-container">
+            <div class="rate" id="rate"></div>
+            <div class="info"></div>
+        </div>
+        
+        <div class="currency">
+            <select id="currency-two">
+                <option value="btc" class = "bitcoin" >BTC</option>
+                <option value="usd" class="tether"selected>USD</option>
+                <option value="eth" class ="ethereum">ETH</option>
+                <option value="bnb" class ="binancecoin">BNB</option>
+                <option value="ltc" class = "litecoin">LTC</option>
+                <option value="eur">EUR</option>
+            </select>
+            <img src="" class="imgTwo">
+            <input type="number" id="amount-two" placeholder="0" value="0" disabled>
+        </div>
+    </div>
+
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
