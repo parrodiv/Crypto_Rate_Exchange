@@ -4,11 +4,7 @@ https://www.coingecko.com/en/api/documentation
 
 # Appereance
 <div align='center'>
-<<<<<<< HEAD
-<img src='./img/Schermata.png' height= 'auto'>
-=======
-<img src='img/Schermata' height= 'auto'>
->>>>>>> 545b5810db1224050f3ddbde98feb5b5c0675e62
+<img src='./img/Schermata.png' height= 'auto' width= '600px'>
 </div>
 
 # Information on how it works
