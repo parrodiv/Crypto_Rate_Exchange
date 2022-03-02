@@ -4,7 +4,7 @@ https://www.coingecko.com/en/api/documentation
 
 # Appereance
 <div align='center'>
-![Schermata 2022-03-02 alle 12 01 39](https://user-images.githubusercontent.com/59086773/156349559-1b43755c-8f76-4396-80fd-eda3a0a06ea6.png)
+<img src='img/schermata.png' height= 'auto'>
 </div>
 
 # Information on how it works
